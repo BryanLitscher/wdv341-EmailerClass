@@ -1,0 +1,2 @@
+# WDV341 Emailer Class
+Your assignment is to create an Emailer class and a PHP page that will create, load and display an Emailer object.  The Emailer class can be used to capture and process content that can be used to dynamically create and send an email.  
