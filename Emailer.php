@@ -10,35 +10,35 @@ class Emailer
 		$this->senders_address=$b;
 	}
 	
-	function set_senders_address($sa){
+	public function set_senders_address($sa){
 		$this->senders_address=$sa;
 	}
-	function get_senders_address(){
+	public function get_senders_address(){
 		return $this->senders_address;
 	}	
 	
-	function set_send_to_address($sta){
+	public function set_send_to_address($sta){
 		$this->send_to_address=$sta;
 	}
-	function get_send_to_address(){
+	public function get_send_to_address(){
 		return $this->send_to_address;
 	}	
 	
-	function set_subject_line($sl){
+	public function set_subject_line($sl){
 		$this->subject_line=$sl;
 	}
-	function get_subject_line(){
+	public function get_subject_line(){
 		return $this->subject_line;
 	}	
 	
-	function set_message($m){
+	public function set_message($m){
 		$this->message=$m;
 	}
-	function get_message(){
+	public function get_message(){
 		return $this->message;
 	}	
 	
-	function  sendEmail( ){
+	public function  sendEmail( ){
 			
 
 		return mail(

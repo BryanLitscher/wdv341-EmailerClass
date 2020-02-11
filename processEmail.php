@@ -5,7 +5,7 @@ include "Emailer.php";
 
 $senders_address="bclitscher@dmacc.edu";
 $send_to_address="info@bryanl.us";
-$subject_line="Subject Line";
+$subject_line="WDV341 Emailer Class";
 $message="This is a message";
 
 
@@ -41,7 +41,11 @@ $message="This is a message";
 		<?php $me->set_message($message);?>
 		<p>Message: <?php echo $me->get_message();?></p>
 
-		<?php print_r( $me );?>
+		<?php 
+			echo '<pre>';
+			print_r( $me );
+			echo '</pre>';
+			?>
 
 		<p>
 		<?php 
